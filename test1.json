@@ -1,371 +1,348 @@
 {
-  "name": "Licht",
-  "colors": {
-    "editor.background": "#fffefc",
-    "editor.findMatchBackground": "#C2E8FF",
-    "editor.findMatchHighlightBackground": "#C2E8FF50",
-    "editor.foreground": "#111111",
-    "editor.inactiveSelectionBackground": "#EDEDED",
-    "editor.lineHighlightBackground": "#A5A5A520",
-    "editor.selectionBackground": "#C2E8FF",
-    "editorCursor.foreground": "#3B68FC",
-    "editorLineNumber.activeForeground": "#111111",
-    "editorLineNumber.foreground": "#ADADAD",
-    "editorWhitespace.foreground": "#E0E0E0"
-  },
-  "tokenColors": [
-    {
-      "name": "Comments",
-      "scope": ["comment", "comment punctuation"],
-      "settings": {
-        "foreground": "#919191"
-      }
-    },
-    {
-      "name": "Comments: Preprocessor",
-      "scope": "comment.block.preprocessor",
-      "settings": {
-        "foreground": "#ADADAD"
-      }
-    },
-    {
-      "name": "Comments: Documentation",
-      "scope": ["comment.documentation", "comment.block.documentation"],
-      "settings": {
-        "background": "#FFFDF7",
-        "foreground": "#BC670F"
-      }
-    },
-    {
-      "name": "Invalid - Deprecated",
-      "scope": "invalid.deprecated",
-      "settings": {
-        "background": "#990000",
-        "foreground": "#FFFFFF"
-      }
-    },
-    {
-      "name": "Invalid - Illegal",
-      "scope": "invalid.illegal",
-      "settings": {
-        "foreground": "#cd3131"
-      }
-    },
-    {
-      "name": "Operators",
-      "scope": "keyword.operator",
-      "settings": {
-        "foreground": "#352de3"
-      }
-    },
-    {
-      "name": "Keywords",
-      "scope": ["keyword", "storage"],
-      "settings": {
-        "foreground": "#352de3"
-      }
-    },
-    {
-      "name": "Types",
-      "scope": ["storage.type", "support.type"],
-      "settings": {
-        "foreground": "#B4640B"
-      }
-    },
-    {
-      "name": "Language Constants",
-      "scope": ["constant.language", "variable.language"],
-      "settings": {
-        "foreground": "#626FC9"
-      }
-    },
-    {
-      "name": "Variables",
-      "scope": ["variable", "support.variable"],
-      "settings": {
-        "foreground": "#111111"
-      }
-    },
-    {
-      "name": "Variables: Punctuation",
-      "scope": "variable punctuation",
-      "settings": {
-        "foreground": "#111111"
-      }
-    },
-    {
-      "name": "Functions",
-      "scope": ["entity.name.function", "support.function", "entity"],
-      "settings": {
-        "foreground": "#284181"
-      }
-    },
-    {
-      "name": "Classes",
-      "scope": [
-        "entity.name.type",
-        "entity.other.inherited-class",
-        "support.class"
-      ],
-      "settings": {
-        "foreground": "#bb28c7"
-      }
-    },
-    {
-      "name": "Exceptions",
-      "scope": "entity.name.exception",
-      "settings": {
-        "foreground": "#F93232"
-      }
-    },
-    {
-      "name": "Sections",
-      "scope": "entity.name.section",
-      "settings": {
-        "fontStyle": ""
-      }
-    },
-    {
-      "name": "Numbers",
-      "scope": ["constant.numeric", "constant"],
-      "settings": {
-        "foreground": "#dd3c2f"
-      }
-    },
-    {
-      "name": "Punctuation",
-      "scope": "punctuation",
-      "settings": {
-        "foreground": "#111111"
-      }
-    },
-    {
-      "name": "Strings",
-      "scope": ["constant.character", "string"],
-      "settings": {
-        "foreground": "#00A33F"
-      }
-    },
-    {
-      "name": "Strings: Punctuation",
-      "scope": "string punctuation",
-      "settings": {
-        "foreground": "#00A33F"
-      }
-    },
-    {
-      "name": "Strings: Escape Sequences",
-      "scope": "constant.character.escape",
-      "settings": {
-        "background": "#FBE9AD44",
-        "fontStyle": "bold"
-      }
-    },
-    {
-      "name": "Strings: Regular Expressions",
-      "scope": "string.regexp",
-      "settings": {
-        "foreground": "#699D36"
-      }
-    },
-    {
-      "name": "Results",
-      "scope": "constant.numeric.line-number.bgr",
-      "settings": {
-        "foreground": "#111111"
-      }
-    },
-    {
-      "name": "Strings: Symbols",
-      "scope": "constant.other.symbol",
-      "settings": {
-        "background": "#E8FFD5",
-        "fontStyle": "bold"
-      }
-    },
-    {
-      "name": "Object Keys",
-      "scope": "string.unquoted.label.js",
-      "settings": {
-        "foreground": "#444444"
-      }
-    },
-    {
-      "name": "Quasi Literals",
-      "scope": "punctuation.quasi.element",
-      "settings": {
-        "foreground": "#444444"
-      }
-    },
-    {
-      "name": "Embedded Source",
-      "scope": ["string source", "text source"],
-      "settings": {
-        "foreground": "#434343"
-      }
-    },
-    {
-      "name": "HTML: Doctype Declaration",
-      "scope": "meta.tag.sgml.doctype",
-      "settings": {
-        "foreground": "#7F7F7F"
-      }
-    },
-    {
-      "name": "HTML: Tags",
-      "scope": "entity.name.tag",
-      "settings": {
-        "foreground": "#0072c8"
-      }
-    },
-    {
-      "name": "HTML: Attribute Punctuation",
-      "scope": "meta.tag string punctuation",
-      "settings": {
-        "foreground": "#00A33F"
-      }
-    },
-    {
-      "name": "HTML: Tag Punctuation",
-      "scope": "punctuation.definition.tag",
-      "settings": {
-        "foreground": "#4F9FCF"
-      }
-    },
-    {
-      "name": "HTML: Entities",
-      "scope": "constant.character.entity",
-      "settings": {
-        "foreground": "#111111"
-      }
-    },
-    {
-      "name": "HTML: Attribute Names",
-      "scope": "entity.other.attribute-name",
-      "settings": {
-        "foreground": "#0072c8"
-      }
-    },
-    {
-      "name": "HTML: Attribute Values",
-      "scope": [
-        "meta.tag string.quoted",
-        "meta.tag string.quoted constant.character.entity"
-      ],
-      "settings": {
-        "background": "#FFFFFF",
-        "foreground": "#00A33F"
-      }
-    },
-    {
-      "name": "CSS: Selectors",
-      "scope": [
-        "meta.selector",
-        "meta.selector entity",
-        "meta.selector entity punctuation",
-        "entity.name.tag.css"
-      ],
-      "settings": {
-        "foreground": "#3A77BF"
-      }
-    },
-    {
-      "name": "CSS: Property Names",
-      "scope": ["meta.property-name", "support.type.property-name"],
-      "settings": {
-        "foreground": "#D4430D"
-      }
-    },
-    {
-      "name": "CSS: Property Values",
-      "scope": [
-        "meta.property-value constant.numeric",
-        "meta.property-value constant",
-        "meta.property-value keyword"
-      ],
-      "settings": {
-        "foreground": "#43A202"
-      }
-    },
-    {
-      "name": "Markup: Changed",
-      "scope": "markup.changed",
-      "settings": {
-        "background": "#FFFFDD",
-        "foreground": "#111111"
-      }
-    },
-    {
-      "name": "Markup: Deletion",
-      "scope": "markup.deleted",
-      "settings": {
-        "background": "#FFDDDD",
-        "foreground": "#111111"
-      }
-    },
-    {
-      "name": "Markup: Emphasis",
-      "scope": "markup.italic",
-      "settings": {
-        "fontStyle": "italic"
-      }
-    },
-    {
-      "name": "Markup: Error",
-      "scope": "markup.error",
-      "settings": {
-        "foreground": "#cd3131"
-      }
-    },
-    {
-      "name": "Markup: Insertion",
-      "scope": "markup.inserted",
-      "settings": {
-        "background": "#DDFFDD",
-        "foreground": "#111111"
-      }
-    },
-    {
-      "name": "Markup: Output",
-      "scope": ["markup.output", "markup.raw"],
-      "settings": {
-        "foreground": "#7F7F7F"
-      }
-    },
-    {
-      "name": "Markup: Prompt",
-      "scope": "markup.prompt",
-      "settings": {
-        "foreground": "#555555"
-      }
-    },
-    {
-      "name": "Markup: Heading",
-      "scope": "markup.heading",
-      "settings": {
-        "fontStyle": "bold"
-      }
-    },
-    {
-      "name": "Markup: Strong",
-      "scope": "markup.bold",
-      "settings": {
-        "fontStyle": "bold"
-      }
-    },
-    {
-      "name": "Markup: Traceback",
-      "scope": "markup.traceback",
-      "settings": {
-        "foreground": "#F93232"
-      }
-    },
-    {
-      "name": "Markup: Underline",
-      "scope": "markup.underline",
-      "settings": {
-        "fontStyle": "underline"
-      }
-    }
-  ]
+	"DocumentData": {
+		"DocumentMetaData": {
+			"DocumentPackage": {
+				"Document": [
+					{
+						"DocumentTypeCategoryCode": "L",
+						"DocumentTypeCode": "B044E",
+						"Position": "1"
+					},
+					{
+						"DocumentTypeCategoryCode": "F",
+						"DocumentTypeCode": "B1549E",
+						"Position": "2"
+					},
+					{
+						"DocumentTypeCategoryCode": "L",
+						"DocumentTypeCode": "B2017A",
+						"Position": "3"
+					},
+					{
+						"DocumentTypeCategoryCode": "L",
+						"DocumentTypeCode": "B2926E",
+						"Position": "4"
+					},
+					{
+						"DocumentTypeCategoryCode": "L",
+						"DocumentTypeCode": "B532A",
+						"Position": "5"
+					},
+					{
+						"DocumentTypeCategoryCode": "L",
+						"DocumentTypeCode": "B1671E",
+						"Position": "6"
+					},
+					{
+						"DocumentTypeCategoryCode": "L",
+						"DocumentTypeCode": "B2765A",
+						"Position": "7"
+					}
+				],
+				"_ID": "AAAA"
+			},
+			"DocumentShipments": {
+				"DocumentShipmentAction": "preview",
+				"DocumentShipment": [
+					{
+						"DocumentShipmentTypeCode": "MAIL",
+						"DocumentShipmentTarget": "vorname.nachname@daimler.com",
+						"DocumentShipmentSubject": "Betreff-Zeile"
+					},
+					{
+						"DocumentShipmentTypeCode": "ARCHIVE",
+						"DocumentShipmentTarget": "abc-123"
+					}
+				]
+			},
+			"EmailAttachments": ""
+		},
+		"ArchiveMetaData": {
+			"WorkspaceType": "MBB_DEU",
+			"WorkspaceCountry": "DEU",
+			"CustomerNumber": "1234567",
+			"AccountNumber": "1234567890",
+			"DocTypeNumber": "100"
+		},
+		"Partner": {
+			"Kundennummer": "1234567",
+			"Aktionscode": "012345",
+			"InteressentenNummer": "12345678",
+			"Anredezeile1": "Sehr geehrter Herr Mustermann,",
+			"Anredezeile2": "Anredezeile2",
+			"Adresszeile1": "Herr",
+			"Adresszeile2": "Max Mustermann",
+			"Adresszeile3": "",
+			"Adresszeile4": "",
+			"Adresszeile5": "Siemensstr. 7",
+			"Adresszeile6": "70469 Stuttgart",
+			"Adresszeile7": "",
+			"Adresszeile8": ""
+		},
+		"PartnerAntrag": {
+			"KundennummerAntrag": "1234567",
+			"KontonummerAntrag": "???KontonummerAntrag???",
+			"AnredeAntrag": "Frau",
+			"GeschlechtAntrag": "GeschlechtAntrag",
+			"AkademischerGradAntrag": "M.Sc.",
+			"AkademischerTitelAntrag": "Prof.",
+			"VornameAntrag": "VornameAntrag",
+			"NachnameAntrag": "NachnameAntrag",
+			"Nachname2Antrag": "Nachname2Antrag",
+			"Nachname3Antrag": "Nachname3Antrag",
+			"GeburtsdatumAntrag": "01.01.2017",
+			"StrasseAntrag": "StrasseAntrag",
+			"HausnummerAntrag": "190",
+			"LandAntrag": "LandAntrag",
+			"PLZAntrag": "12345",
+			"OrtAntrag": "OrtAntrag",
+			"TelnummerAntrag": "+49 711 1779018680",
+			"FaxnummerAntrag": "+49 711 1779018680",
+			"MobilnummerAntrag": "+49 711 1779018680",
+			"EMailAntrag": "odm@daimler.com",
+			"TINAntrag": "TINAntrag",
+			"GeburtsortAntrag": "GeburtsortAntrag",
+			"Staatsangehoerigkeit1Antrag": "Staatsangehoerigkeit1Antrag",
+			"Staatsangehoerigkeit2Antrag": "Staatsangehoerigkeit2Antrag"
+		},
+		"PartnerAntrag2": {
+			"KundennummerAntrag2": "1234567",
+			"KontonummerAntrag2": "???KontonummerAntrag2???",
+			"AnredeAntrag2": "Frau",
+			"GeschlechtAntrag2": "GeschlechtAntrag2",
+			"AkademischerGradAntrag2": "M. Sc.",
+			"AkademischerTitelAntrag2": "Prof.",
+			"VornameAntrag2": "VornameAntrag2",
+			"NachnameAntrag2": "NachnameAntrag2",
+			"Nachname2Antrag2": "Nachname2Antrag2",
+			"Nachname3Antrag2": "Nachname3Antrag2",
+			"GeburtsdatumAntrag2": "01.01.2017",
+			"StrasseAntrag2": "StrasseAntrag2",
+			"HausnummerAntrag2": "190",
+			"LandAntrag2": "LandAntrag2",
+			"PLZAntrag2": "12345",
+			"OrtAntrag2": "OrtAntrag2",
+			"TelnummerAntrag2": "+49 711 1779018680",
+			"FaxnummerAntrag2": "+49 711 1779018680",
+			"MobilnummerAntrag2": "+49 711 1779018680",
+			"EMailAntrag2": "odm@daimler.com",
+			"TINAntrag2": "TINAntrag2",
+			"GeburtsortAntrag2": "GeburtsortAntrag2",
+			"Staatsangehoerigkeit1Antrag2": "Staatsangehoerigkeit1Antrag2",
+			"Staatsangehoerigkeit2Antrag2": "Staatsangehoerigkeit2Antrag2"
+		},
+		"Werbeeinwilligung": {
+			"BetroffeneKundennummer": "1234567",
+			"DatumAenderung": "01.01.2017",
+			"NachnameBetroffen": "NachnameBetroffen",
+			"VornameBetroffen": "VornameBetroffen",
+			"Telefonisch": "1",
+			"ElektronischePost": "1",
+			"Postalisch": "1",
+			"Newsletter": "1"
+		},
+		"Freistellungsauftrag": {
+			"Auftragsart": "1",
+			"AnredeAntrag": "Frau",
+			"AkademischerTitelAntrag": "Prof.",
+			"VornameAntrag": "VornameAntrag",
+			"NachnameAntrag": "NachnameAntrag",
+			"StrasseAntrag": "StrasseAntrag",
+			"PLZAntrag": "12345",
+			"OrtAntrag": "OrtAntrag",
+			"GeburtsdatumAntrag": "01.01.2017",
+			"GeburtsnameAntrag": "GeburtsnameAntrag",
+			"AnredeEP": "Frau",
+			"AkademischerTitelEP": "Prof.",
+			"VornameEP": "VornameEP",
+			"NachnameEP": "NachnameEP",
+			"StrasseEP": "StrasseEP",
+			"PLZEP": "12345",
+			"OrtEP": "OrtEP",
+			"GeburtsdatumEP": "01.01.2017",
+			"GeburtsnameEP": "GeburtsnameEP",
+			"Freistellungsbetrag": "1",
+			"Betragshoehe": "1000",
+			"Gueltig": "1",
+			"GueltigAb": "01.01.2017",
+			"GueltigBis": "02.01.2017",
+			"Aenderungsdatum": "01.01.2017",
+			"TINAntrag": "01234567891",
+			"TINEP": "01234567891",
+			"GemeinsameVeranlagung": "???GemeinsameVeranlagung???"
+		},
+		"Bankverbindung": {
+			"RefKontoinhaber": "RefKontoinhaber",
+			"RefBIC": "BYLADEM1001",
+			"RefIBAN": "DE21301204000000015228",
+			"RefKreditinstitut": "RefKreditinstitut",
+			"RefKreditinstitutOrt": "RefKreditinstitutOrt",
+			"MCMandRef": "01234567891",
+			"MandRefErsatzText": "1",
+			"Dauerlastschrift": "1",
+			"Einmaliger_Einzug": "1",
+			"Ueberweisung": "1"
+		},
+		"Konto": {
+			"KontoArt": "KontoArt",
+			"IBANFZKReferenz": "DE21301204000000015228",
+			"NameKontoinhaber": "NameKontoinhaber",
+			"KundennummerKontoinhaber": "1234567",
+			"Laufzeit": "12",
+			"Faelligkeitsdatum": "01.10.2017"
+		},
+		"KontoAntrag": {
+			"Starteinzug": "Starteinzug",
+			"AbbuchungAuswahl": "AbbuchungAuswahl",
+			"AbbuchungDatum": "01.01.2017",
+			"EinzugGirokontoEinmalig": "EinzugGirokontoEinmalig",
+			"Laufzeit": "24"
+		},
+		"Produkt": {
+			"ProdBezeichnung": "ProdBezeichnung"
+		},
+		"FreitexteVariableFelder": {
+			"Freitext1": "Freitext1",
+			"Freitext2": "Freitext2",
+			"Freitext3": "Freitext3",
+			"Freitext4": "Freitext4",
+			"Freitext5": "Freitext5",
+			"Freitext6": "Freitext6",
+			"Freitext7": "Freitext7",
+			"Freitext8": "Freitext8",
+			"Freitext9": "Freitext9",
+			"Freitext10": "Freitext10",
+			"Freitext11": "Freitext11",
+			"Freitext12": "Freitext12",
+			"Freitext13": "Freitext13",
+			"Freitext14": "Freitext14",
+			"Freitext15": "Freitext15",
+			"Freitext16": "Freitext16",
+			"Freitext17": "Freitext17",
+			"Freitext18": "Freitext18",
+			"Freitext19": "Freitext19",
+			"Freitext20": "Freitext20",
+			"Freitext21": "Freitext21",
+			"Freitext22": "Freitext22",
+			"Freitext23": "Freitext23",
+			"Freitext24": "Freitext24",
+			"Freitext25": "Freitext25",
+			"Freitext26": "Freitext26"
+		},
+		"Starteinzug": {
+			"BetragStarteinzug": "10000",
+			"DatumErsteinzug": "01.01.2017",
+			"Checkbox_Am": "1",
+			"Checkbox_Sofort": "0"
+		},
+		"Sparrate": {
+			"BetragDauereinzug": "10000",
+			"DauereinzugTag": "1.",
+			"DauereinzugDatum": "01.01.2017"
+		},
+		"Sparplan": {
+			"SparrateNeu": "1000",
+			"SparrateAlt": "20000",
+			"RatenaussetzungVon": "01.01.2014",
+			"RatenaussetzungBis": "01.01.2018",
+			"SparfaelligFuenf": "02.01.2017"
+		},
+		"Thaler": {
+			"Anlagedauer": "Anlagedauer",
+			"Guthaben": "Guthaben",
+			"GSKTO": "0123456789123456",
+			"RCKKTO": "DE21301204005600015228",
+			"GSBTR": "GSBTR",
+			"GSZNS": "GSZNS",
+			"LZVON": "01.01.2010",
+			"LZBIS": "31.12.2013",
+			"KAP1": "10.000,00",
+			"SOL1": "10.000,00",
+			"KIS1": "10.000,00",
+			"ZNSB": "10.000,00",
+			"ZNSN": "10.000,00",
+			"PROLKZ": "01",
+			"ZNSKAP": "J"
+		},
+		"Minderjaehriger": {
+			"KundennummerMind": "KundennummerMind",
+			"AnredeMind": "AnredeMind",
+			"VornameMind": "VornameMind",
+			"NachnameMind": "NachnameMind",
+			"StrasseMind": "StrasseMind",
+			"PLZMind": "69872",
+			"OrtMind": "OrtMind",
+			"Staatsangehoerigkeit1Mind": "Staatsangehoerigkeit1Mind",
+			"Staatsangehoerigkeit2Mind": "Staatsangehoerigkeit2Mind",
+			"GeburtsdatumMind": "01.01.1999",
+			"GeburtsortMind": "GeburtsortMind",
+			"TINMind": "TINMind"
+		},
+		"Zinsinformation": {
+			"Zinssatz300102": "Zinssatz300102",
+			"Zinssatz300101": "Zinssatz300101",
+			"StandZinssatzTG": "StandZinssatzTG",
+			"Zinssatz330301": "Zinssatz330301",
+			"Zinssatz330302": "Zinssatz330302",
+			"Zinssatz330303": "Zinssatz330303",
+			"Zinssatz330304": "Zinssatz330304",
+			"Zinssatz330305": "Zinssatz330305",
+			"Zinssatz330306": "Zinssatz330306",
+			"Zinssatz330307": "Zinssatz330307",
+			"Zinssatz330308": "Zinssatz330308",
+			"Zinssatz330309": "Zinssatz330309",
+			"Zinssatz330310": "Zinssatz330310",
+			"Zinssatz330311": "Zinssatz330311",
+			"Zinssatz330312": "Zinssatz330312",
+			"Zinssatz330318": "Zinssatz330318",
+			"Zinssatz330330": "Zinssatz330330",
+			"Zinssatz330332": "Zinssatz330332",
+			"Zinssatz330333": "Zinssatz330333",
+			"Zinssatz330334": "Zinssatz330334",
+			"Zinssatz330335": "Zinssatz330335",
+			"Zinssatz330336": "Zinssatz330336",
+			"StandZinssatzFZK": "StandZinssatzFZK",
+			"FreitextZinsflyer": "FreitextZinsflyer",
+			"BetragStaffelTG": "BetragStaffelTG",
+			"Staffelzins300101": "Staffelzins300101",
+			"Staffelzins300102": "Staffelzins300102"
+		},
+		"Vollmacht": {
+			"AnredeVoll": "AnredeVoll",
+			"AkademischerTitelVoll": "AkademischerTitelVoll",
+			"VornameVoll": "VornameVoll",
+			"NachnameVoll": "NachnameVoll",
+			"StrasseVoll": "StrasseVoll",
+			"PLZVoll": "32147",
+			"OrtVoll": "OrtVoll",
+			"Staatsangehoerigkeit1Voll": "Staatsangehoerigkeit1Voll",
+			"Staatsangehoerigkeit2Voll": "Staatsangehoerigkeit2Voll",
+			"GeburtsdatumVoll": "05.06.2000",
+			"GeburtsortVoll": "GeburtsortVoll",
+			"TelnummerVoll": "07111231235",
+			"MobilnummerVoll": "01234567891",
+			"EMailVoll": "EMailVoll",
+			"KontonummerVoll": "KontonummerVoll",
+			"TINVoll": "TINVoll"
+		},
+		"eBox": {
+			"AktivierenDeaktivieren": "AktivierenDeaktivieren"
+		},
+		"Kirchensteuer": {
+			"FehlercodeTIN": "4321",
+			"FehlerbeschreibungTIN": "FehlerbeschreibungTIN",
+			"FehlerhafteTIN": "78945612308"
+		},
+		"Steuer": {
+			"DSteuerpflicht": "1",
+			"DSteuerpflicht2": "1",
+			"UsSteuerpflicht": "1",
+			"CrsSteuerpflicht": "0",
+			"UsSteuerpflicht2": "1",
+			"CrsSteuerpflicht2": "0"
+		},
+		"Version": "0.83",
+		"RequestID": "4711",
+		"RequestDate": "06.08.2018"
+	}
 }
